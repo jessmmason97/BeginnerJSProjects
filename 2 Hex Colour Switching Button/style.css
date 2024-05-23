@@ -1,0 +1,54 @@
+/* https://fonts.google.com/' */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+body{
+  font-family: "Comfortaa", sans-serif;
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hexColours{
+    text-align: center;
+}
+.hexColours h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: changeColour 5s infinite alternate;
+}
+.hexColours h2{
+    font-size: 2rem;
+    margin-top: 15%
+}
+
+@keyframes changeColour{
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+}
+
+/* Responsiveness so the text size gets smaller on smaller screens */
+@media(max-width:480px){
+    .hexColours h1{
+        font-size: 1.5rem;
+    }
+}
