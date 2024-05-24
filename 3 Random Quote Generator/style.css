@@ -8,8 +8,6 @@ body {
 }
 
 .container {
-    border: 1px solid red;
-
     width: 95%;
     height: 95vh;
 
@@ -18,15 +16,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
 .quotes {
     border: 10px solid #f4d1ae;
-
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 100px;
+    padding: 80px 130px;
     color: grey;
     background-color: #f4edea;
     
