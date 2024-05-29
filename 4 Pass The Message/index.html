@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Linking to the CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Pass The Message</title>
+</head>
+<body>
+    <div class="container">
+        <div class="message">
+            <p>
+                <h3 style="text-align: center;font-weight: bold;">Pass the message</h3>
+                <p style="border-bottom: 2px solid rgba(211,211,211, 0.5);"></p>
+            </p>
+            <p>
+                <label for="messageInput">Enter a Message</label>
+                <br>
+                <button style="border-radius: 5px 0 0 5px;"><i class="fa-solid fa-envelope-open-text"></i></button><input id="messageInput" type="text">
+            </p>
+            <p>
+                <button onclick="getMessage()">Submit</button>
+            </p>
+            <p id="messageOutput" style="text-align:centre;text-transform: uppercase;"></p>
+        </div>
+    </div>
+    <!-- Linking to the script -->
+    <script src="script.js"></script>
+</body>
+</html>
